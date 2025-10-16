@@ -1,0 +1,9 @@
+2025-09-27 21:08:48,009 - utils.common_functions - INFO - Succesfully read the YAML file
+2025-09-27 21:08:48,009 - __main__ - INFO - Data Ingestion started with my_bucket666 and file is Hotel_Reservations.csv
+2025-09-27 21:08:48,009 - __main__ - INFO - Starting data ingestion process
+2025-09-27 21:08:48,620 - __main__ - INFO - CSV file from GCP is succesfully downloaded to artifacts/raw\raw.csv
+2025-09-27 21:08:48,620 - __main__ - INFO - Starting the splitting process
+2025-09-27 21:08:48,740 - __main__ - INFO - Train data saved to artifacts/raw\train.csv
+2025-09-27 21:08:48,740 - __main__ - INFO - Test data saved to artifacts/raw\test.csv
+2025-09-27 21:08:48,742 - __main__ - INFO - Data ingestion complted sucesfully
+2025-09-27 21:08:48,742 - __main__ - INFO - Data ingestion completed

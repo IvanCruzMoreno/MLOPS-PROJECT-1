@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/ElPitudo/Documents/cursos/MLOPS-Project-1/mlruns/0/b4d883c056d64897ab7b53c1c41416b3/artifacts
+end_time: 1760414857309
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4d883c056d64897ab7b53c1c41416b3
+run_name: monumental-ram-469
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760414854000
+status: 3
+tags: []
+user_id: ElPitudo

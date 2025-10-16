@@ -1,0 +1,76 @@
+2025-10-06 21:12:13,288 - utils.common_functions - INFO - Succesfully read the YAML file
+2025-10-06 21:12:13,288 - __main__ - INFO - Data Ingestion started with my_bucket666 and file is Hotel_Reservations.csv
+2025-10-06 21:12:13,288 - __main__ - INFO - Starting data ingestion process
+2025-10-06 21:12:46,766 - utils.common_functions - INFO - Succesfully read the YAML file
+2025-10-06 21:12:46,766 - __main__ - INFO - Loading data from RAW directory
+2025-10-06 21:12:46,766 - utils.common_functions - INFO - Loading data
+2025-10-06 21:12:46,807 - utils.common_functions - INFO - Loading data
+2025-10-06 21:12:46,822 - __main__ - INFO - Starting our Data Processing step
+2025-10-06 21:12:46,823 - __main__ - INFO - Dropping the columns
+2025-10-06 21:12:46,843 - __main__ - INFO - Applying Label Encoding
+2025-10-06 21:12:46,855 - __main__ - INFO - Label Mappings are : 
+2025-10-06 21:12:46,855 - __main__ - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-10-06 21:12:46,855 - __main__ - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-10-06 21:12:46,855 - __main__ - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-10-06 21:12:46,855 - __main__ - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-10-06 21:12:46,855 - __main__ - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-10-06 21:12:46,855 - __main__ - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-10-06 21:12:46,855 - __main__ - INFO - Doing Skewness Handling
+2025-10-06 21:12:46,857 - __main__ - INFO - Starting our Data Processing step
+2025-10-06 21:12:46,857 - __main__ - INFO - Dropping the columns
+2025-10-06 21:12:46,860 - __main__ - INFO - Applying Label Encoding
+2025-10-06 21:12:46,863 - __main__ - INFO - Label Mappings are : 
+2025-10-06 21:12:46,863 - __main__ - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-10-06 21:12:46,863 - __main__ - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-10-06 21:12:46,864 - __main__ - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-10-06 21:12:46,864 - __main__ - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-10-06 21:12:46,864 - __main__ - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-10-06 21:12:46,864 - __main__ - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-10-06 21:12:46,864 - __main__ - INFO - Doing Skewness Handling
+2025-10-06 21:12:46,865 - __main__ - INFO - Handling Imbalanced Data
+2025-10-06 21:12:46,959 - __main__ - INFO - Data balanced sucesffuly
+2025-10-06 21:12:46,959 - __main__ - INFO - Handling Imbalanced Data
+2025-10-06 21:12:46,968 - __main__ - INFO - Data balanced sucesffuly
+2025-10-06 21:12:46,968 - __main__ - INFO - Starting our Feature selection step
+2025-10-06 21:12:48,759 - __main__ - ERROR - Error during feature selection step 'no_of_features'
+2025-10-06 21:12:48,759 - __main__ - ERROR - Error during preprocessing pipeline 'KeyError' object has no attribute 'exc_info'
+2025-10-06 21:17:57,182 - utils.common_functions - INFO - Succesfully read the YAML file
+2025-10-06 21:17:57,183 - __main__ - INFO - Loading data from RAW directory
+2025-10-06 21:17:57,183 - utils.common_functions - INFO - Loading data
+2025-10-06 21:17:57,212 - utils.common_functions - INFO - Loading data
+2025-10-06 21:17:57,220 - __main__ - INFO - Starting our Data Processing step
+2025-10-06 21:17:57,220 - __main__ - INFO - Dropping the columns
+2025-10-06 21:17:57,231 - __main__ - INFO - Applying Label Encoding
+2025-10-06 21:17:57,241 - __main__ - INFO - Label Mappings are : 
+2025-10-06 21:17:57,241 - __main__ - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-10-06 21:17:57,241 - __main__ - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-10-06 21:17:57,241 - __main__ - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-10-06 21:17:57,241 - __main__ - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-10-06 21:17:57,241 - __main__ - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-10-06 21:17:57,241 - __main__ - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-10-06 21:17:57,241 - __main__ - INFO - Doing Skewness Handling
+2025-10-06 21:17:57,243 - __main__ - INFO - Starting our Data Processing step
+2025-10-06 21:17:57,243 - __main__ - INFO - Dropping the columns
+2025-10-06 21:17:57,246 - __main__ - INFO - Applying Label Encoding
+2025-10-06 21:17:57,250 - __main__ - INFO - Label Mappings are : 
+2025-10-06 21:17:57,250 - __main__ - INFO - type_of_meal_plan : {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-10-06 21:17:57,250 - __main__ - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-10-06 21:17:57,250 - __main__ - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-10-06 21:17:57,250 - __main__ - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-10-06 21:17:57,250 - __main__ - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-10-06 21:17:57,250 - __main__ - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-10-06 21:17:57,250 - __main__ - INFO - Doing Skewness Handling
+2025-10-06 21:17:57,251 - __main__ - INFO - Handling Imbalanced Data
+2025-10-06 21:17:57,330 - __main__ - INFO - Data balanced sucesffuly
+2025-10-06 21:17:57,331 - __main__ - INFO - Handling Imbalanced Data
+2025-10-06 21:17:57,340 - __main__ - INFO - Data balanced sucesffuly
+2025-10-06 21:17:57,340 - __main__ - INFO - Starting our Feature selection step
+2025-10-06 21:17:59,117 - __main__ - INFO - Features selected : ['lead_time' 'no_of_special_requests' 'avg_price_per_room' 'arrival_month'
+ 'arrival_date' 'market_segment_type' 'no_of_week_nights'
+ 'no_of_weekend_nights' 'type_of_meal_plan' 'room_type_reserved']
+2025-10-06 21:17:59,118 - __main__ - INFO - Feature slection completed sucesfully
+2025-10-06 21:17:59,121 - __main__ - INFO - Saving our data in processed folder
+2025-10-06 21:17:59,158 - __main__ - INFO - Data saved sucesfuly to artifacts/processed\processed_train.csv
+2025-10-06 21:17:59,158 - __main__ - INFO - Saving our data in processed folder
+2025-10-06 21:17:59,168 - __main__ - INFO - Data saved sucesfuly to artifacts/processed\processed_test.csv
+2025-10-06 21:17:59,168 - __main__ - INFO - Data processing completed sucesfully
