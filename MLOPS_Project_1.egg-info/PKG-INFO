@@ -1,4 +1,4 @@
-Metadata-Version: 2.4
+Metadata-Version: 2.1
 Name: MLOPS-Project-1
 Version: 0.1
 Author: Ivan Moreno
@@ -10,5 +10,4 @@ Requires-Dist: pyyaml
 Requires-Dist: imbalanced-learn
 Requires-Dist: lightgbm
 Requires-Dist: mlflow
-Dynamic: author
-Dynamic: requires-dist
+Requires-Dist: flask
